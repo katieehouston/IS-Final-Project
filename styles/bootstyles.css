@@ -25,6 +25,14 @@ ul {
     background-color: #111; 
   }  */
 
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    border-bottom: solid 1px #555555;
+    }
+
 .mainbody{
     top: 114px;
     bottom: 64px;
@@ -58,7 +66,22 @@ ul {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    .bold {
-        font-weight: bold;
-        font-style: normal;
+ .bold {
+    font-weight: bold;
+    font-style: normal;
     }
+
+ .textstyle2{
+     font-size: 14px;
+     color: #333;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style: italic;
+     }
+
+ .titlepage{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    font-weight: bold;
+   }
